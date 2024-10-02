@@ -18,4 +18,4 @@
 ```
 2. Todos los archivos deben estar dentro de la carpeta: ```app/```.
 3. Verificar las credenciales de acceso de la base de datos mysql en ```docker-compose.yml```.
-4. Se visualizar en [http://localhost:80](http://localhost:80)
+4. Se visualizar en localhost:80
