@@ -4,6 +4,7 @@
 1.1. Se tiene que instalar docker en su dispositivo, lo más sencillo es descargar [Docker Desktop](https://www.docker.com/products/docker-desktop).  
 1.2. (Opcional) Se descargan las imágenes para [PHP](https://hub.docker.com/_/php) y [MySql](https://hub.docker.com/_/mysql) 
 > Se puede omitir este paso debido a que cuando se inicializa como lo especifica el punto 2.1 se descarga automaticamente las imagenes correspondientes.  
+  
 > Por defecto se descargará la última versión. Si se desea se puede cambiar las versiones de mysql y/o php, si se realiza el cambio de versión, se debe de configurar en Dockerfile y docker-compose.yml
 ```cli
 docker pull php
