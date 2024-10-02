@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    volumes:
+      - ./app:/var/www/html
+    ports:
+      - "80:80"
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mydb
+    ports:
+      - "3306:3306"
