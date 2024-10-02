@@ -20,4 +20,4 @@ docker compose up -d
 ```
 2.2. Todos los archivos deben estar dentro de la carpeta: ```app/```.  
 2.3 Verificar las credenciales de acceso de la base de datos mysql en ```docker-compose.yml```.  
-2.4 Se visualizar en localhost:80
+2.4 Se puede visualizar en localhost:80
